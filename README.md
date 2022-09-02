@@ -5,12 +5,12 @@ Divvy is a bike sharing program in Chicago, Illinois USA that allows riders to p
 
 The goal of this project is to develop a data lake solution using Azure Databricks using a lake house architecture. The key items of the project are
 
-Design a star schema based on the business outcomes listed below;
+1. Design a star schema based on the business outcomes listed below;
 Import the data into Azure Databricks using Delta Lake to create a Bronze data store;
-Create a gold data store in Delta Lake tables;
+2. Create a gold data store in Delta Lake tables;
 Transform the data into the star schema for a Gold data store;
 
 
 The repository consists of a 
-PDF file showing the ER diagram of the Star Schema.
-An Azure Databricks notebook which contains creation of Bronze, Silver and Gold Layers.
+1. PDF file showing the ER diagram of the Star Schema.
+2. An Azure Databricks notebook which contains creation of Bronze, Silver and Gold Layers.
